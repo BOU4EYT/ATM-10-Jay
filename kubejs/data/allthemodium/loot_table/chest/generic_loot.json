@@ -235,6 +235,104 @@
             }
           ],
           "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:nether_star",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_golden_apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "allthemodium:allthemodium_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "allthemodium:vibranium_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "allthemodium:unobtainium_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:totem_of_undying",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 48
+              }
+            }
+          ],
+          "weight": 8
         }
       ]
     }
