@@ -6,7 +6,7 @@
 		#When joining a new world, should players be given a blueprint package?
 		#The blueprint package gives some blueprints when used (right-click).
 		#To change what is given, override the starter_blueprints loot table.
-		spawnWithStarterBlueprints = false
+		spawnWithStarterBlueprints = true
 
 	#Repair kit configs.
 	[item.repairKits]
@@ -85,7 +85,7 @@
 	[gear.prospector_hammer]
 		#The range in blocks the prospector hammer will search for blocks of interest
 		#Range: 0 ~ 64
-		range = 16
+		range = 24
 
 	[gear.saw]
 		#Caps how far the saw can look for blocks when chopping down trees. Try decreasing this if you get stack overflow exceptions.
@@ -111,7 +111,7 @@
 	[gear.repairs]
 		#Effectiveness of gear repairs done in an anvil. Set to 0 to disable anvil repairs.
 		#Range: 0.0 ~ 1.0
-		anvilEffectiveness = 0.5
+		anvilEffectiveness = 0.9
 		#DEPRECATED! Use repair kit configs instead.
 		#Range: 0.0 ~ 1.0
 		quickEffectiveness = 0.35
@@ -128,13 +128,13 @@
 	#The median (most common, average) grade that a material grader with tier 1 catalyst will produce.
 	#Higher tier catalysts will increase the median by one grade per tier past 1 (if 1 = C, 2 = B, etc.)
 	#Allowed Values: NONE, E, D, C, B, A, S, SS, SSS, MAX
-	median_grade = "C"
+	median_grade = "A"
 	#The standard deviation of grades the material grader will produce.
 	#Grades are normally distributed, with the median grade being at the center of the bell curve.
 	#Larger numbers will make both higher and lower grades more common.
 	#Extremely large values may completely break the curve, yielding mostly the lowest and highest grades.
 	#Range: 0.0 ~ 100.0
-	standardDeviation = 1.5
+	standardDeviation = 2.0
 
 #Settings for the salvager
 [salvager]
@@ -147,7 +147,7 @@
 		#Maximum rate of part loss when salvaging items. 0 = no loss, 1 = complete loss.
 		#Rate depends on remaining durability.
 		#Range: 0.0 ~ 1.0
-		max = 0.5
+		max = 0.2
 
 #Settings for the starlight charger
 [starlightCharger]
